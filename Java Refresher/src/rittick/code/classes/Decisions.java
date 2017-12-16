@@ -11,5 +11,14 @@ public class Decisions {
 		}else {
 			System.out.println("I don't care about a");
 		}
+		
+		char ch='c';
+		
+		switch(ch){
+		case 'a':System.out.println("It is a.");break;
+		case 'b':System.out.println("It is b.");break;
+		case 'c':System.out.println("It is c.");break;
+		default: System.out.println("I don't give a ...");
+		}
 	}
 }
